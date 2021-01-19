@@ -33,7 +33,7 @@ function App() {
             <br />
             <code>
               {" "}
-              "homepage": "http://yourgithubname.github.io/yourgithubreponame",{" "}
+              "homepage": "http://yourgithubname/yourgithubreponame",{" "}
             </code>
             <br /> where, instead of "yourgithubname", provide your github name,
             and instead of "yourgithubreponame" provide your github repositorium
