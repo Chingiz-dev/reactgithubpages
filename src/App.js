@@ -77,7 +77,10 @@ function App() {
           <code>git commit -m "here I commit all chages"</code>
           <br/>
           to commit</li>
-          <li></li>
+          <li>then we have to deploy:
+            <br/>
+            <code>npm run deploy</code>
+          </li>
           <li></li>
           <li></li>
         </ul>
