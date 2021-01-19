@@ -68,21 +68,32 @@ function App() {
             instead of "yourgithubreponame" provide your github repositorium
             name
           </li>
-          <li>then:
-            <br/>
-            <code>git add .<br/>
-            to stage all changes</code>
+          <li>
+            then:
+            <br />
+            <code>
+              git add .<br />
+              to stage all changes
+            </code>
           </li>
-          <li>then: <br/>
-          <code>git commit -m "here I commit all chages"</code>
-          <br/>
-          to commit</li>
-          <li>then we have to deploy:
-            <br/>
+          <li>
+            then: <br />
+            <code>git commit -m "here I commit all chages"</code>
+            <br />
+            to commit
+          </li>
+          <li>
+            then we have to deploy:
+            <br />
             <code>npm run deploy</code>
           </li>
-          <li></li>
-          <li></li>
+          <li>
+            so now you are done, just commit it into your github:
+            <br />
+            <code>git push -u origin master</code>
+          </li>
+          <li>now on github repositorium in settings tab find githubpages link</li>
+          <li>enjoy</li>
         </ul>
       </header>
     </div>
