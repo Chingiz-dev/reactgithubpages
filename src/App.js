@@ -1,21 +1,28 @@
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
         <h1>Create and deploy react app on github pages</h1>
         <ul>
           <li>
-            first create new folder for application, name it 'yourfoldername'
+            first create new folder for application, name it{" "}
+            <b>'yourfoldername'</b>
           </li>
-          <li>open command line, cd to yourfoldername</li>
+          <li>
+            open command line, cd to <b>yourfoldername</b>
+          </li>
           <li>
             use following command to create your application wich will use your
-            folder name :<code>npx create-react-app .</code>
+            folder name :
+            <br />
+            <code>npx create-react-app .</code>
           </li>
           <li>
             when command complited, run following comand to make sure that
             application created succesfully:
+            <br />
             <code>npm start</code>
+            <br />
             new page should appear in your default browser
           </li>
           <li>
@@ -25,19 +32,17 @@ function App() {
           <li>create new repository on github</li>
           <li>open terminal in vscode</li>
           <li>
-            run following command: <br />
+            run following command:
+            <br />
             <code>npm install gh-pages --save-dev</code>
           </li>
           <li>
             goto your package.json and edit it with adding following line
             <br />
-            <code>
-              {" "}
-              "homepage": "http://yourgithubname/yourgithubreponame",{" "}
-            </code>
+            <code>"homepage": "http://yourgithubname/yourgithubreponame",</code>
             <br /> where, instead of "yourgithubname", provide your github name,
             and instead of "yourgithubreponame" provide your github repositorium
-            name{" "}
+            name
           </li>
           <li>
             check devdependencies in your package.json, "gh-pages" should be
@@ -92,7 +97,9 @@ function App() {
             <br />
             <code>git push -u origin master</code>
           </li>
-          <li>now on github repositorium in settings tab find githubpages link</li>
+          <li>
+            now on github repositorium in settings tab find githubpages link
+          </li>
           <li>enjoy</li>
         </ul>
       </header>
